@@ -1,0 +1,6 @@
+vim
+zsh
+git
+vcsh
+tmux
+mr
