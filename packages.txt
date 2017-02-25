@@ -1,6 +1,7 @@
+git
+mr
+tmux
+unzip
+vcsh
 vim
 zsh
-git
-vcsh
-tmux
-mr
