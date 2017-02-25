@@ -1,5 +1,7 @@
 #!/bin/bash
 
-curl https://sdk.cloud.google.com | bash
-exec -l $SHELL
+curl -o /tmp/install_gcloud.sh https://sdk.cloud.google.com 
+chmod +x /tmp/install_gcloud.sh
 
+mkdir -p $HOME/.local
+/tmp/install_gcloud.sh --disable-prompts --install-dir $HOME/.local
