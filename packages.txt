@@ -4,4 +4,5 @@ tmux
 unzip
 vcsh
 vim
+zip
 zsh
