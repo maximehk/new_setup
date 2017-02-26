@@ -19,5 +19,6 @@ It pulls from the following github repositories:
   * https://github.com/maximehk/zsh
 
 It also installs:
-  * docker
-  * gcloud
+  * all the packages in [packages.txt](https://github.com/maximehk/new_setup/blob/master/packages.txt)
+  * [docker](https://www.docker.com/)
+  * [gcloud](https://cloud.google.com/sdk/gcloud/)
