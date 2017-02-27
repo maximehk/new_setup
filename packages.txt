@@ -1,7 +1,14 @@
 bzip2
 git
+htop
+mc
 mplayer2
+moreutils
 mr
+ncdu
+nmap
+tcpdump
+tcpreplay
 tmux
 unzip
 vcsh

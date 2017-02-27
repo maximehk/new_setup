@@ -3,7 +3,7 @@
 work_dir=$(dirname $(readlink -f $0))
 
 cd "${work_dir}"
-sudo apt-get update && cat packages.txt | xargs sudo apt-get install -y
+sudo apt-get update && xargs -ra packages.txt sudo apt-get install -y
 sudo chsh -s $(which zsh) ${USER}
 vcsh clone https://github.com/maximehk/mr.git mr
 
