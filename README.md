@@ -20,5 +20,6 @@ It pulls from the following github repositories:
 
 It also installs:
   * all the packages in [packages.txt](https://github.com/maximehk/new_setup/blob/master/packages.txt)
+  * [anconda3](https://www.continuum.io/anaconda-overview)
   * [docker](https://www.docker.com/)
   * [gcloud](https://cloud.google.com/sdk/gcloud/)
