@@ -7,3 +7,5 @@ mkdir -p $HOME/.local
 /tmp/install_gcloud.sh --disable-prompts --install-dir $HOME/.local
 
 $HOME/.local/google-cloud-sdk/bin/gcloud components install app-engine-python kubectl -q
+
+rm -f /tmp/install_gcloud.sh
