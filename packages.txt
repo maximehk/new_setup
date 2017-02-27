@@ -1,4 +1,5 @@
 git
+mplayer2
 mr
 tmux
 unzip
