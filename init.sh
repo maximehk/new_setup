@@ -10,4 +10,6 @@ vcsh clone https://github.com/maximehk/mr.git mr
 cd "$HOME"
 mr update
 
-find $work_dir/apps -name '*.sh' -type f -print0 | xargs -0 -n1 bash 
+if [[ "$1" == "--install-apps" ]] ; then
+  find $work_dir/apps -name '*.sh' -type f -print0 | xargs -0 -n1 bash 
+fi

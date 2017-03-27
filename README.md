@@ -10,6 +10,15 @@ sudo apt-get install -y git && \
   ./new_setup/init.sh
 ```
 
+or if you want to install additional apps (docker, anaconda3 and gcloud):
+
+```bash
+sudo apt-get install -y git && \
+  git clone https://github.com/maximehk/new_setup.git && \
+    ./new_setup/init.sh --install-apps
+```
+
+
 ## Information
 
 It pulls from the following github repositories:
