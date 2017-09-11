@@ -1,4 +1,4 @@
-# new_setup
+# go/new-setup
 
 This repository can be used to init your system/user settings
 
