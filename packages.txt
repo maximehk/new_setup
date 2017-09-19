@@ -10,6 +10,7 @@ nmap
 tcpdump
 tcpreplay
 tmux
+tree
 unzip
 vcsh
 vim
