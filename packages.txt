@@ -9,6 +9,7 @@ ncdu
 nmap
 tcpdump
 tcpreplay
+terminator
 tmux
 tree
 unzip
