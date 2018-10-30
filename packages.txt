@@ -3,9 +3,9 @@ curl
 git
 htop
 mc
-mplayer2
+mplayer
 moreutils
-mr
+myrepos
 ncdu
 nmap
 tcpdump
